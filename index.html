@@ -120,10 +120,11 @@
   font-weight: bold;
   text-decoration: none;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-  margin-top: 40px;
+  margin-top: 10px;
   width: 90%;
   max-width: 300px;
   text-align: center;
+  margin: 0 40px;
   transition: background 0.3s;
 }
 
@@ -194,6 +195,7 @@
 
   <main>
     <section class="status-section">
+     <!-- Botão: Download do Jogo (link Google Drive já incluído) 
       <div class="status-box">
         <h2>Server Online</h2>
         <p>✔️</p>
@@ -209,10 +211,23 @@
       <div class="status-box">
         <h2>Asmodians 🐺</h2>
         <p id="asmos">Erro</p>
-      </div>
-      <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-      <a class="btn-download" href="downloads/AionPT-Client.exe">📦 Download do Jogo</a>
-      <a class="btn-download2" href="downloads/AionPT-Launcher.exe">🚀 Download do Launcher</a>
+      </div> -->
+      <div style="display: flex; justify-content: center; gap: 200px; margin-top: 40px;">
+      <div style="display: flex; flex-direction: row; align-items: center; width: 100%;">
+  <!-- Botão: Download do Jogo (link Google Drive já incluído) -->
+  <a class="btn-download" 
+     href="https://drive.google.com/uc?export=download&id=1yBJIHlFVmKm-U9DhSSzQ2QNseONAYlob" 
+     target="_blank">
+    📦 Download do Jogo
+  </a>
+
+  <!-- Botão: Download do Launcher (adicione o ID abaixo quando tiver o link do Launcher) -->
+  <a class="btn-download2" 
+     href="https://drive.google.com/file/d/1BMYBqgY9rCePQwB0rcg3NP7lAcoxfNdR/view?usp=sharing" 
+     target="_blank">
+    🚀 Download do Launcher
+  </a>
+
       </div>
       
 
